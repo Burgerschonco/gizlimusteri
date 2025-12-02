@@ -1,0 +1,44 @@
+{
+  "branches": {
+    "-OCYHa1": {
+      "id": "-OCYHa1",
+      "name": "Ataşehir Şubesi",
+      "code": "ATŞ-001",
+      "address": "Ataşehir, İstanbul",
+      "phone": "+90 216 123 45 67",
+      "isActive": true
+    },
+    "-OCYHa2": {
+      "id": "-OCYHa2",
+      "name": "Kadıköy Şubesi",
+      "code": "KDK-001",
+      "address": "Kadıköy, İstanbul",
+      "phone": "+90 216 234 56 78",
+      "isActive": true
+    },
+    "-OCYHa3": {
+      "id": "-OCYHa3",
+      "name": "Maltepe Şubesi",
+      "code": "MLP-001",
+      "address": "Maltepe, İstanbul",
+      "phone": "+90 216 345 67 89",
+      "isActive": true
+    },
+    "-OCYHa4": {
+      "id": "-OCYHa4",
+      "name": "Üsküdar Şubesi",
+      "code": "ÜSK-001",
+      "address": "Üsküdar, İstanbul",
+      "phone": "+90 216 456 78 90",
+      "isActive": true
+    },
+    "-OCYHa5": {
+      "id": "-OCYHa5",
+      "name": "Kartal Şubesi",
+      "code": "KRT-001",
+      "address": "Kartal, İstanbul",
+      "phone": "+90 216 567 89 01",
+      "isActive": true
+    }
+  }
+} 

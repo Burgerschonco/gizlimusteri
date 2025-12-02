@@ -1,0 +1,29 @@
+{
+  "short_name": "BurgerSchön",
+  "name": "BurgerSchön Gizli Müşteri",
+  "description": "BurgerSchön Gizli Müşteri",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ed1c25",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}
