@@ -339,7 +339,9 @@ export default function DenetimYapPage() {
         if (!secilenSube) return;
         const hedefSube = subeler[secilenSube];
         if (!hedefSube || typeof hedefSube.lat !== 'number' || typeof hedefSube.lng !== 'number') {
-          setKonumHatasi('Bu şube için konum tanımlanmamış. Lütfen yönetici ile iletişime geçin.');
+          console.log('Şube konumu tanımlı değil: Konum doğrulaması atlanıyor');
+          setKonumDogrulandi(true);
+          linkKullanildiIsaretle();
           return;
         }
 
@@ -400,7 +402,9 @@ export default function DenetimYapPage() {
       if (!secilenSube) return;
       const hedefSube = subeler[secilenSube];
       if (!hedefSube || typeof hedefSube.lat !== 'number' || typeof hedefSube.lng !== 'number') {
-        setKonumHatasi('Bu şube için konum tanımlanmamış. Lütfen yönetici ile iletişime geçin.');
+        console.log('Şube konumu tanımlı değil: Konum doğrulaması atlanıyor');
+        setKonumDogrulandi(true);
+        linkKullanildiIsaretle();
         return;
       }
       if (!('geolocation' in navigator)) {
