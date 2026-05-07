@@ -909,6 +909,7 @@ export default function DenetimYapPage() {
     setGonderiliyor(false);
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleCevaplanmamisSoruTikla = (soruKey) => {
     setCevaplanmamisSorularModalVisible(false);
     setTimeout(() => {
