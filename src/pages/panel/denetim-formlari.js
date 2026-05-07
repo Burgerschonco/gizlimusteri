@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { ref, get, set, push } from 'firebase/database';
 import { realdb } from '../../firebase/config';

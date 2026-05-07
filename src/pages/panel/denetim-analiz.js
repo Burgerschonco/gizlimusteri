@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-loop-func */
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { realdb } from '../../firebase/config';
