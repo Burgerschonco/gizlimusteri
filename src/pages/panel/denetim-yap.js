@@ -266,6 +266,7 @@ export default function DenetimYapPage() {
     };
 
     formKontrol();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, navigate]);
 
   // Link kullanımını işaretleme fonksiyonu
@@ -319,6 +320,7 @@ export default function DenetimYapPage() {
     };
 
     fetchSubeler();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Konum doğrulama: 100 m çember içinde mi?
@@ -384,6 +386,7 @@ export default function DenetimYapPage() {
     if (secilenSube && Object.keys(subeler).length > 0) {
       dogrula();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [secilenSube, subeler]);
 
   const yenidenKonumDogrula = () => {
